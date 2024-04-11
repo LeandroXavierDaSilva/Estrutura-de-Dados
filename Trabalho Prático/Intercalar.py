@@ -1,4 +1,6 @@
 # Problema 03: Dada uma pilha de inteiros, reorganize os elementos em uma fila, de tal modo que os elementos da primeira metade da pilha estão intercalados com os elementos da segunda metade da pilha.
+# Entrada Pilha: {4 (topo da pilha) ,3,2,5}
+# Saída Fila:{4 (front),2,3,5 (rear)}
 
 from Stack import Stack
 from Queue import Queue
