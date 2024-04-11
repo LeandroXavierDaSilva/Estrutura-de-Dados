@@ -22,11 +22,13 @@ def morrisPreOrder(root):
                 predecessor.right = None
                 current = current.right
 
-n = Node(2)
-n.left = Node(-3)
-n.right = Node(7)
-n.left.left = Node(5)
-n.left.right = Node(4)
+n = Node(1)
+n.left = Node(5)
+n.right = Node(11)
+n.left.left = Node(4)
+n.left.right = Node(9)
+n.right.left = Node(21)
+n.right.right = Node(8)
 
 print(morrisPreOrder(n))
-# 2 -> -3 -> 5 -> 4 -> 7
+# 1 -> 5 -> 4 -> 9 -> 11 -> 21 -> 8
