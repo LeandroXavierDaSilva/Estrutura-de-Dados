@@ -3,7 +3,7 @@
 from Stack import Stack
 from Queue import Queue
 
-def interleaver(s):
+def Intercalar(s):
     q = Queue(s.count)
 
     count = s.count // 2
@@ -22,5 +22,5 @@ stack.push(2)
 stack.push(3)
 stack.push(4)
 
-print("Stack: ", stack)
-print("Interleaved Queue: ", interleaver(stack))
+print("Pilha: ", stack)
+print("Intercalar: ", Intercalar(stack))
