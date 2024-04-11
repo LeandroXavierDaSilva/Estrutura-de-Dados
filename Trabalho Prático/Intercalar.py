@@ -23,4 +23,4 @@ stack.push(3)
 stack.push(4)
 
 print("Pilha: ", stack)
-print("Intercalar: ", Intercalar(stack))
+print("Fila: ", Intercalar(stack))
