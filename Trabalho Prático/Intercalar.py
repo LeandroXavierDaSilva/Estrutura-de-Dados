@@ -1,6 +1,7 @@
 # Problema 03: Dada uma pilha de inteiros, reorganize os elementos em uma fila, de tal modo que os elementos da primeira metade da pilha estão intercalados com os elementos da segunda metade da pilha.
 
-import Stack, Queue
+From Stack import Stack
+From Queue import Queue
 
 def interleaver(s):
     q = Queue(s.count)
