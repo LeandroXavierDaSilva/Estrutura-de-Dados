@@ -22,5 +22,5 @@ stack.push(2)
 stack.push(3)
 stack.push(4)
 
-print(stack)
-print(interleaver(stack))
+print("Stack: ", stack)
+print("Interleaved Queue: ", interleaver(stack))
