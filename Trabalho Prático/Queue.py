@@ -5,9 +5,6 @@ class Queue:
         self.count = 0
         self.size_max = size_max
         self.A = [None]*size_max
-
-    def isEmpty(self):
-    return self.count == 0
     
     def enqueue(self, data):
         if self.count < self.size_max:
@@ -25,6 +22,9 @@ class Queue:
 
     def size(self):
         return self.count
+
+    def isEmpty(self):
+    return self.count == 0
 
     def __str__(self):
         elements = []
