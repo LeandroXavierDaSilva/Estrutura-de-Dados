@@ -2,7 +2,7 @@
 
 from Node import Node
 
-def morrisPreOrder(root):
+def PreOrdemMorris(root):
     current = root
     while current:
         if not current.left:
@@ -30,5 +30,5 @@ n.left.right = Node(9)
 n.right.left = Node(21)
 n.right.right = Node(8)
 
-print(morrisPreOrder(n))
+print(PreOrdemMorris(n))
 # 1 -> 5 -> 4 -> 9 -> 11 -> 21 -> 8
