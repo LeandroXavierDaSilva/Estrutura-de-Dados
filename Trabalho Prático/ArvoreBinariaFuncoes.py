@@ -36,7 +36,7 @@ n = Node(1)
 n.left = Node(5)
 n.right = Node(11)
 n.left.left = Node(4)
-n.left.right = Node(9)
+n.left.left.left = Node(9)
 n.right.left = Node(21)
 n.right.right = Node(8)
 
